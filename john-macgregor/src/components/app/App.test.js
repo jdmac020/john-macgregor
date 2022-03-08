@@ -5,6 +5,7 @@ import functions from './appFunctions';
 const year = new Date().getFullYear();
 
 describe('component tests', () => {
+
   test('renders logo image', () => {
     render(<App />);
     const logoImage = screen.getByAltText('A solid black wizard holding a staff in one hand and summoning an object with the other above the name John MacGregor and the slogan "build with magic"');
@@ -14,10 +15,16 @@ describe('component tests', () => {
 })
 
 describe('appFunctions', () => {
-  test('getFooterText', () => {
+  test('get footer text', () => {
     const text = functions.footerText();
-    text.includes(year);
-    text.includes('Johnathan MacGregor');
-    text.includes('&copy;');
+    expect(text.includes(year)).toBe(true);
+    expect(text.includes('Johnathan MacGregor')).toBe(true);
+    expect(text.includes('&copy;')).toBe(false);
+  });
+
+  test('get header text', () => {
+    const text = functions.headerText();
+    expect(text.includes('John MacGregor')).toBe(true);
+    expect(text.includes('home')).toBe(false);
   });
 })

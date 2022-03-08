@@ -4,11 +4,12 @@ import logo from '../../images/BlackLogoNoBackground.png'
 
 const logoAlt = 'A solid black wizard holding a staff in one hand and summoning an object with the other above the name John MacGregor and the slogan "build with magic"';
 const footerText = functions.footerText();
+const headerText = functions.headerText();
 
 function App() {
   return (
     <div className='app'>
-      <header>Coming Soon</header>
+      <header>{headerText}</header>
       <div className='app-grid-container'>
         <img src={logo} alt={logoAlt}/>
         <h2>Hello World</h2>
