@@ -1,8 +1,9 @@
 import './App.css';
-import logo from './images/BlackLogoNoBackground.png'
+import functions from './appFunctions';
+import logo from '../../images/BlackLogoNoBackground.png'
 
 const logoAlt = 'A solid black wizard holding a staff in one hand and summoning an object with the other above the name John MacGregor and the slogan "build with magic"';
-const year = new Date().getFullYear();
+const footerText = functions.footerText();
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <p>This will soon be the space to learn all about a certain software developer named John MacGregor.</p>
         <p>Till then, just enjoy things.</p>
       </div>
-      <footer>&copy; {year} Johnathan MacGregor</footer>
+      <footer>&copy; {footerText}</footer>
     </div>
   );
 }
