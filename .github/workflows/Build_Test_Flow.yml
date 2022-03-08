@@ -1,0 +1,21 @@
+name: Build and Test on Push
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  build_and_test_job:
+    runs-on: ubuntu-latest
+    name: Build and Test Job
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node 16.13.2
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.13.2
+      - name: Install modules
+        run: cd john-macgregor && npm install
+      - name: Run Tests
+        run: cd john-macgregor && npm test
