@@ -40,12 +40,6 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 715px) {
-  .app-grid-container {
-    margin: 0 auto;
-  }
-}
-
 @media only screen and (min-height: 675px) {
   .app-grid-container {
     display: grid;
@@ -57,12 +51,6 @@
 }
 
 @media only screen and (min-height: 800px) {
-  .app-grid-container {
-    row-gap: 75px;
-  }
-}
-
-@media only screen and (min-height: 950px) {
   .app-grid-container {
     margin: 5% auto 0;
   }
