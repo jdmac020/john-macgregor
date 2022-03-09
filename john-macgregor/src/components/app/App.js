@@ -1,4 +1,4 @@
-import './App.css';
+import './app.css';
 import functions from './appFunctions';
 import logo from '../../images/BlackLogoNoBackground.png'
 
