@@ -9,6 +9,7 @@ const headerText = functions.headerText();
 function App() {
   return (
       <div className='app-grid-container'>
+        <div className='left-gutter'></div>
         <header>{headerText}</header>
         <main>
           <img src={logo} alt={logoAlt}/>
@@ -17,6 +18,7 @@ function App() {
           <p>Till then, just enjoy things.</p>
         </main>
         <footer>&copy; {footerText}</footer>
+        <div className='right-gutter'></div>
       </div>
   );
 }
