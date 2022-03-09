@@ -4,7 +4,7 @@ const functions = {
         return `${year} Johnathan MacGregor`;
     },
     headerText: () => {
-        return 'John MacGregor - Home';
+        return 'Home';
     }
 }
 

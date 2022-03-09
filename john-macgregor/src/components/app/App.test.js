@@ -19,12 +19,10 @@ describe('appFunctions', () => {
     const text = functions.footerText();
     expect(text.includes(year)).toBe(true);
     expect(text.includes('Johnathan MacGregor')).toBe(true);
-    expect(text.includes('&copy;')).toBe(false);
   });
 
   test('get header text', () => {
     const text = functions.headerText();
-    expect(text.includes('John MacGregor')).toBe(true);
-    expect(text.includes('home')).toBe(false);
+    expect(text.includes('Home')).toBe(true);
   });
 })
