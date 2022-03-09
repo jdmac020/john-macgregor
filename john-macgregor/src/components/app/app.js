@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './app.css';
 import functions from './appFunctions';
 
@@ -8,7 +9,9 @@ function App({ child }) {
   return (
       <div className='app-grid-container'>
         <div className='left-gutter'></div>
-        <header>{headerText}</header>
+        <header>
+          <Link to='/'>Home</Link> - <Link to='/about'>About</Link>
+        </header>
         <main>
           {child}
         </main>
