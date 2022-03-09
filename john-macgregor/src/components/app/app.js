@@ -3,7 +3,6 @@ import './app.css';
 import functions from './appFunctions';
 
 const footerText = functions.footerText();
-const headerText = functions.headerText();
 
 function App({ child }) {
   return (
