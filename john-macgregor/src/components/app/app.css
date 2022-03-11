@@ -21,11 +21,7 @@
 }
 
 .app-grid-container header a:hover {
-  color: black;
-}
-
-.app-grid-container header a:visited {
-  color: black;
+  color: #FFFFFF;
 }
 
 .app-grid-container footer {
@@ -34,38 +30,18 @@
   bottom: 0;
 }
 
+.app-grid-container footer a {
+  color: black;
+}
+
+.app-grid-container footer a:hover {
+  color: #FFFFFF;
+}
+
 .app-grid-container main {
-  display: grid;
-  justify-items: center;
   grid-column: 2;
   overflow: auto;
   scrollbar-color: #91B59B #00000000;
-}
-
-.app-grid-container img {
-  margin-top: 25px;
-  width: 300px;
-  height: 232px;
-}
-
-.app-grid-container h2 {
-  text-align: center;
-}
-
-.app-grid-container p {
-  margin: 0 5px 10px;
-}
-
-.app-grid-container a {
-  color: #91B59B;
-}
-
-.app-grid-container a:hover {
-  color: azure;
-}
-
-.app-grid-container a:visited {
-  color: #B5A3A3;
 }
 
 .right-gutter {
@@ -82,21 +58,3 @@
   grid-row: 1 / 4;
   background-color: #B5B5B5;
 }
-
-@media only screen and (min-height: 745px) {
-  .app-grid-container main div {
-    margin-bottom: calc(100vh - 745px);
-  }
-}
-
-/* @media only screen and (min-height: 850px) {
-  .app-grid-container main div {
-    margin-bottom: 80px;
-  }
-}
-
-@media only screen and (min-height: 950px) {
-  .app-grid-container main div {
-    margin-bottom: 160px;
-  }
-} */

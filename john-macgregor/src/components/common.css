@@ -1,0 +1,32 @@
+.main-component-content {
+  display: grid;
+  justify-items: center;
+}
+
+.main-component-content img {
+  margin-top: 25px;
+  width: 300px;
+  height: 232px;
+}
+
+.main-component-content h3, h4 {
+  margin: 0 .3125rem 1.125rem;
+}
+
+.main-component-content p {
+  margin: 0 .625rem .625rem;
+  max-width: 900px;
+}
+
+a {
+  color: #f8fff4;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #c96969;
+}
+
+a:hover {
+  color: #000000;
+}
