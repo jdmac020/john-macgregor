@@ -8,7 +8,7 @@ function App({ child }) {
       <div className='app-grid-container'>
         <div className='left-gutter'></div>
         <header>
-          <Link to='/'>Home</Link> - <Link to='/about'>About</Link>
+          <Link to='/'>Home</Link> - <Link to='/about'>About</Link> - <Link to='/links'>Links</Link>
         </header>
         <main>
           {child}
