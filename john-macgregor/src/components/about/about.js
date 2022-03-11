@@ -5,8 +5,8 @@ const logoAlt = 'A man with brown hair, wearing square-rim glasses, and long ful
 
 function About() {
     return (
-        <>
-            <img src={headshot} alt={logoAlt}/>
+        <div className='main-component-content'>
+            <img id='headshot' src={headshot} alt={logoAlt}/>
             <h2>About Me</h2>
             <div>
                 <h3>The Beginning</h3>
@@ -60,11 +60,11 @@ function About() {
                     problems. They first must put in the hard work of understanding the situation, the context, and the possible solutions. Then comes choosing one based on 
                     numerous criteria -- and quite often, the solution does not require a single moment of true magic.
                 </p>
-                <p>
-                    Thank you for stopping by, and I hope my story has resonated with you on some level.
-                </p>
+                <h4>
+                    Thank you for stopping by, and I hope my story has resonated with you!
+                </h4>
             </div>
-        </>
+        </div>
     );
   }
   
