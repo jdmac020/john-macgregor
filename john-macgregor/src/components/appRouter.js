@@ -10,8 +10,8 @@ function AppRouter() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App child={<Home/>} />} />
-                <Route path="about" element={<App child={<About/>} />} />
-                <Route path="links" element={<App child={<Links/>} />} />
+                <Route path="/about" element={<App child={<About/>} />} />
+                <Route path="/links" element={<App child={<Links/>} />} />
             </Routes>
         </BrowserRouter>
     );
