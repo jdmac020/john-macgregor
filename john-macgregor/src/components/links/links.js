@@ -10,25 +10,25 @@ function Links() {
         <figure>
           <img id='map' src={map} alt={mapAlt} title='Berlin - U-Bahn / Subway Map (1970)' />
           <figcaption>
-            <i><a href='https://www.flickr.com/photos/24736216@N07/6570985349'>Image Credit: Roger W</a></i>
+            <i><a tabIndex={0} href='https://www.flickr.com/photos/24736216@N07/6570985349'>Image Credit: Roger W</a></i>
           </figcaption>
         </figure>
-        <h2>More About Me</h2>
+        <h1>More About Me</h1>
         <ul>
           <li>
-            <a href='https://zenreveriescode.blog/'>My Blog</a>
+            <a tabIndex={0} href='https://zenreveriescode.blog/'>My Blog</a>
           </li>
           <li>
-            <a href='https://www.linkedin.com/in/johnathan-macgregor/'>LinkedIn</a>
+            <a tabIndex={0} href='https://www.linkedin.com/in/johnathan-macgregor/'>LinkedIn</a>
           </li>
           <li>
-            <a href='https://github.com/jdmac020'>Github</a>
+            <a tabIndex={0} href='https://github.com/jdmac020'>Github</a>
           </li>
         </ul>
         <h2>More Work Samples</h2>
         <ul>
           <li>
-            <a href='https://resistbottools.azurewebsites.net/'>ResistBot Tools</a>
+            <a tabIndex={0} href='https://resistbottools.azurewebsites.net/'>ResistBot Tools</a>
           </li>
         </ul>
     </div>
