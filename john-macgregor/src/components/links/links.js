@@ -24,11 +24,8 @@ function Links() {
           <li>
             <a tabIndex={0} href='https://github.com/jdmac020'>Github</a>
           </li>
-        </ul>
-        <h2>More Work Samples</h2>
-        <ul>
           <li>
-            <a tabIndex={0} href='https://resistbottools.azurewebsites.net/'>ResistBot Tools</a>
+            <a tabIndex={0} href='https://resist.bot/go/jdmac020'>ResistBot Petitions</a>
           </li>
         </ul>
     </div>
