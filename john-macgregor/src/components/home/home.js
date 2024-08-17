@@ -23,7 +23,7 @@ function Home() {
                 <li><a tabIndex={0} href='https://github.com/jdmac020/john-macgregor'>A living example of my abilities</a></li>
             </ul>
             <p>My intention is to provide an easy way for you to learn about me and what I can bring to the table, without a lot of hassle.</p>
-            <p>If you have any questions after poking around, don't hesitate to reach out to me <a href='mailto:john.macgregor@john-macgregor.dev'>via my email</a>.</p>
+            <p>If you have any questions after poking around, don't hesitate to reach out to me <a href='mailto:john.macgregor@gmail.com'>via my email</a>.</p>
         </div>
     </div>
   );

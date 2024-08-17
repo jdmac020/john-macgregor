@@ -18,9 +18,8 @@ function About() {
                 </p>
                 <p>
                     It was not, as it turned out, the right path for me. Instead I leveraged the experience I'd gained in the Boy Scouts and Sea Cadets in leadership and 
-                    organizational theory to join the management team at a Wendy's corporate training store. The lessons from learning that business are still 
-                    <a tabIndex={0} href='https://zenreveriescode.blog/2021/06/27/self-organizing-teams-are-teams-of-leaders/'> yielding dividends</a> to this day. Most of my career has 
-                    been spent building on this operations leadership skillset in restaurant, retail, and warehouse settings.
+                    organizational theory to join the management team at a Wendy's corporate training store. The lessons from learning that business are still yielding dividends 
+                    to this day. Most of my career has been spent building on this operations leadership skillset in restaurant, retail, and warehouse settings.
                 </p>
                 <p>
                     I made the decision to switch careers in about five minutes. 
@@ -40,11 +39,9 @@ function About() {
                 <p>
                     Since then, I've gone <a tabIndex={0} href='https://www.cscc.edu/'>back to school</a> and learned the basics of writing software. I've taken a series of positions 
                     that have each taught me new elements to the industry, exposed me to new concepts, and given me opportunities to hone my skills. I've embraced many of 
-                    the concepts central to <a tabIndex={0} href='http://www.extremeprogramming.org/'>XP</a> (such as 
-                    <a tabIndex={0} href='https://zenreveriescode.blog/2021/06/13/a-love-letter-to-automated-testing-as-a-tool-for-quality/'> test driven development</a>,
-                    <a tabIndex={0} href='https://zenreveriescode.blog/2019/08/08/ci-cd-a-quick-aside/'> continuous integration and deployment</a>, pair programming), and have found much 
-                    value in the principles of the <a tabIndex={0} href='https://agilemanifesto.org/'>Agile Manifesto</a>. I've built a reasonably strong understanding of C# and .NET, 
-                    as well as Javascript and React.
+                    the concepts central to <a tabIndex={0} href='http://www.extremeprogramming.org/'>XP</a> (such as test driven development, continuous integration and deployment, 
+                    pair programming), and have found much value in the principles of the <a tabIndex={0} href='https://agilemanifesto.org/'>Agile Manifesto</a>. I've built a 
+                    reasonably strong understanding of C# and .NET, as well as Javascript and React.
                 </p>
                 <h2>The Current State</h2>
                 <p>
@@ -54,12 +51,11 @@ function About() {
                     user/business?" and "What is the problem we are trying to solve?"
                 </p>
                 <p>
-                    I consider myself, at this point in the journey, something of an 
-                    <a tabIndex={0} href='https://zenreveriescode.blog/2019/05/19/configuration-is-the-real-magic/'>apprentice wizard</a>. 
-                    Writing software, in my opinion, boils down to using arcane magic words to coax sand into thinking for us. But knowing the spells of programming alone does 
-                    not automatically solve problems. Not even the most powerful wizards from lore and pop culture can just point their staff or wave their wand and eliminate 
-                    problems. They first must put in the hard work of understanding the situation, the context, and the possible solutions. Then comes choosing one based on 
-                    numerous criteria -- and quite often, the solution does not require a single moment of true magic.
+                    I consider myself, at this point in the journey, something of an apprentice wizard. Writing software, in my opinion, boils down to using arcane magic words 
+                    to coax sand into thinking for us. But knowing the spells of programming alone does not automatically solve problems. Not even the most powerful wizards from 
+                    lore and pop culture can just point their staff or wave their wand and eliminate problems. They first must put in the hard work of understanding the situation, 
+                    the context, and the possible solutions. Then comes choosing one based on numerous criteria -- and quite often, the solution does not require a single moment of 
+                    true magic.
                 </p>
                 <h3>
                     Thank you for stopping by, and I hope my story has resonated with you!
