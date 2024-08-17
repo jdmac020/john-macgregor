@@ -16,16 +16,10 @@ function Links() {
         <h1>More About Me</h1>
         <ul>
           <li>
-            <a tabIndex={0} href='https://zenreveriescode.blog/'>My Blog</a>
-          </li>
-          <li>
             <a tabIndex={0} href='https://www.linkedin.com/in/johnathan-macgregor/'>LinkedIn</a>
           </li>
           <li>
             <a tabIndex={0} href='https://github.com/jdmac020'>Github</a>
-          </li>
-          <li>
-            <a tabIndex={0} href='https://resist.bot/go/jdmac020'>ResistBot Petitions</a>
           </li>
         </ul>
     </div>
